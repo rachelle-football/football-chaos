@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Football Chaos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-brand">⚽ Football Chaos</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="card-creator.html">Create Card</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" style="padding: 4rem 0; background: linear-gradient(135deg, #FF8C00 0%, #1f4788 100%);">
+    <div class="container">
+        <h1 style="font-size: 42px; margin-bottom: 1rem;">Get In Touch</h1>
+        <p style="font-size: 18px; opacity: 0.9;">Questions? We'd love to hear from you.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section style="background: white; padding: 4rem 0;">
+    <div class="container">
+        <div style="max-width: 600px; margin: 0 auto;">
+            
+            <form id="contactForm" style="background: #f9f9f9; padding: 2rem; border-radius: 8px; border: 2px solid #FF8C00;">
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #1f4788;">Your Name</label>
+                    <input type="text" id="name" name="name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #1f4788;">Email Address</label>
+                    <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #1f4788;">Subject</label>
+                    <select id="subject" name="subject" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 16;">
+                        <option value="">Select a subject...</option>
+                        <option value="product_question">Product Question</option>
+                        <option value="technical_issue">Technical Issue</option>
+                        <option value="partnership">Partnership Opportunity</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #1f4788;">Message</label>
+                    <textarea id="message" name="message" required rows="6" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 16; font-family: inherit; resize: vertical;"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                
+                <div id="successMessage" style="display: none; margin-top: 1rem; padding: 1rem; background: #d4edda; color: #155724; border-radius: 4px; text-align: center;">
+                    ✅ Thanks for your message! We'll get back to you soon.
+                </div>
+                
+            </form>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Contact Info Section -->
+<section style="background: #f9f9f9; padding: 4rem 0;">
+    <div class="container">
+        <h2 style="color: #1f4788; font-size: 32px; text-align: center; margin-bottom: 3rem;">Other Ways to Reach Us</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; max-width: 900px; margin: 0 auto;">
+            
+            <div style="text-align: center;">
+                <div style="font-size: 40px; margin-bottom: 1rem;">📧</div>
+                <h3 style="color: #1f4788; margin-bottom: 0.5rem;">Email</h3>
+                <p style="color: #666;">hello@footballchaoscentral.com</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <div style="font-size: 40px; margin-bottom: 1rem;">📱</div>
+                <h3 style="color: #1f4788; margin-bottom: 0.5rem;">Social Media</h3>
+                <p style="color: #666;">@footballchaos on Instagram & TikTok</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <div style="font-size: 40px; margin-bottom: 1rem;">⚡</div>
+                <h3 style="color: #1f4788; margin-bottom: 0.5rem;">Response Time</h3>
+                <p style="color: #666;">24-48 hours typically</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Link -->
+<section style="background: white; padding: 4rem 0;">
+    <div class="container">
+        <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <h2 style="color: #1f4788; font-size: 28px; margin-bottom: 1rem;">Didn't find what you need?</h2>
+            <p style="color: #666; margin-bottom: 2rem; font-size: 16px;">Check out our FAQ page for answers to common questions about Football Chaos.</p>
+            <a href="faq.html" class="btn btn-secondary">Browse FAQ</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Football Chaos</h4>
+                <p>The complete 4-week football training program for kids ages 6-14.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="card-creator.html">Create Card</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">TikTok</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Football Chaos. All rights reserved. | Made with ⚽</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // In a real implementation, this would send to a backend
+        // For now, show a success message
+        document.getElementById('contactForm').style.display = 'none';
+        document.getElementById('successMessage').style.display = 'block';
+        
+        // Reset form
+        this.reset();
+        
+        // Optional: re-show form after 5 seconds
+        setTimeout(() => {
+            document.getElementById('contactForm').style.display = 'block';
+            document.getElementById('successMessage').style.display = 'none';
+        }, 5000);
+    });
+</script>
+
+</body>
+</html>
