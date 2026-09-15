@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Chaos FAQ - Frequently Asked Questions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .faq-category {
+            margin-bottom: 3rem;
+        }
+        .faq-category h3 {
+            color: #0052CC;
+            font-size: 20px;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #FF6B35;
+            padding-bottom: 0.5rem;
+        }
+        .faq-question {
+            background: white;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .faq-q {
+            padding: 1.5rem;
+            cursor: pointer;
+            background: #f9f9f9;
+            font-weight: 600;
+            color: #0052CC;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        .faq-q:hover {
+            background: #efefef;
+        }
+        .faq-a {
+            padding: 1.5rem;
+            color: #333;
+            line-height: 1.8;
+            display: none;
+        }
+        .faq-a.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-brand">⚽ Football Chaos</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="card-creator.html">Create Card</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html" class="active">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" style="padding: 3rem 0;">
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p style="font-size: 16px; margin-top: 1rem;">Everything you need to know about Football Chaos</p>
+    </div>
+</section>
+
+<!-- FAQ Content -->
+<section style="background: white; padding: 4rem 0;">
+    <div class="container">
+        <div class="faq-container">
+            
+            <!-- Getting Started -->
+            <div class="faq-category">
+                <h3>🎯 Getting Started</h3>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>What age is Football Chaos designed for?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Football Chaos is designed for kids ages 6-14. The program scales to different skill levels—beginners find the challenges achievable and confidence-building, while more advanced players find progression and depth in the 4-week plan.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Do they need to be on a soccer team to use Football Chaos?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>No! Football Chaos works great whether your child is on a competitive team, a casual league, or just plays in the backyard. The program is designed to complement any level of involvement.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Is this a digital or physical workbook?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Football Chaos comes as a digital PDF workbook that you can print at home or view on a tablet. Print it to follow along during training sessions, or use it digitally—whatever works best for your family!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>What's the parent guide for?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>The 4-page parent guide gives you everything you need to support your child's training journey. It includes week-by-week expectations, how to motivate your child, what to watch for in their progress, and solutions to common challenges parents face.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Training Details -->
+            <div class="faq-category">
+                <h3>🏋️ Training Details</h3>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>How much time does Football Chaos take each week?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>About 2-3 hours per week total. This breaks down to roughly 15-20 minutes on workbook activities (understanding concepts, filling out the exercises) and 20-30 minutes of actual drills and practice. Most families find this easily fits into a regular training schedule.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Does my child need a soccer ball to do Football Chaos?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Yes, they'll need a soccer ball (any size works), a space to practice (backyard, field, park), and ideally a wall for some drills. Most activities adapt to different space sizes—you don't need a full field.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Can they do it by themselves or do they need a coach?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Most activities kids can do independently, but having a parent present helps with motivation and safety. The parent guide prepares you to support them. The YouTube coaching videos embedded in each drill provide live guidance.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>What if they skip a week? Do they start over?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>No! The program is flexible. If they miss a week, just pick up where they left off. Football skills build cumulatively, so any missed week can be made up. Some families spread 4 weeks over 6 weeks—it's about consistency, not speed.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Content & Features -->
+            <div class="faq-category">
+                <h3>📚 Content & Features</h3>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>What's included in the 39-page workbook?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>The workbook includes welcome activities, player profiles, a mystery player challenge, a 4-week structured training plan (12+ YouTube coaching videos), interactive activities like VAR Courtroom and Penalty Lab, a celebration designer section, and a final "You Are The Pro" achievement section with a printable certificate.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Are the YouTube coaching videos part of Football Chaos or other channels?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>We've curated links to verified coaching channels (verified trainers and academies). Each video is carefully selected for quality, safety, and alignment with that week's focus. All videos are public and freely available on YouTube.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Can my child create a player card online?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Yes! The interactive Card Creator tool lets them design their own pro player card with team backgrounds, stat ratings (Speed, Shooting, Control, Game IQ), upload a photo, and share it with the #FootballChaosChallenge on social media.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Is the certificate printable?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Yes! After completing the 4 weeks, kids get a printable achievement certificate they can print, frame, and display. It's a great way to celebrate their transformation and hard work.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pricing & Guarantee -->
+            <div class="faq-category">
+                <h3>💰 Pricing & Guarantee</h3>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>How much does Football Chaos cost?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Just $5.00 for the complete workbook, parent guide, access to the card creator, and all materials. That's less than a single training session and way more valuable!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Do you have a money-back guarantee?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Yes! We offer a 30-day money-back guarantee. If Football Chaos isn't right for your family for any reason, just reach out and we'll refund you, no questions asked.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Is there a subscription or do I pay once?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>You pay once ($5) and own the entire program forever. No subscriptions, no hidden fees. You can use it for multiple children or revisit it anytime.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Can I share Football Chaos with my friend's family?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Each purchase is for personal/family use. If your friends want to use Football Chaos, they can purchase their own copy for just $5. That supports us in creating more great content!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Results & Success -->
+            <div class="faq-category">
+                <h3>🏆 Results & Success</h3>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>How much will my child improve in 4 weeks?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Results vary by starting level and consistency, but most kids see significant improvements in ball control, confidence, and technical skills. The biggest win? A genuine love for the game and belief that they can keep improving.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Can Football Chaos help them make a competitive team?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Absolutely! Many kids who've completed Football Chaos report increased confidence at tryouts. The program teaches real skills, game awareness, and the professional mindset—all things coaches notice and value.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>What do parents say about Football Chaos?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Our 4.9/5 star rating speaks volumes. Parents love that: kids are excited to practice, improvements are visible, the parent guide makes them feel confident supporting their child, and it's affordable. Check our homepage for real testimonials!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Is Football Chaos used by youth leagues?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Yes! Several youth leagues recommend Football Chaos to families looking to supplement team training. Some coaches even use it as optional enrichment for their players.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technical & Support -->
+            <div class="faq-category">
+                <h3>❓ Still Have Questions?</h3>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>How do I get support or reach out?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Visit our <a href="contact.html" style="color: #0052CC; font-weight: bold;">Contact page</a> to email us. We respond to all inquiries within 24 hours. We're here to help!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-question">
+                    <div class="faq-q" onclick="this.parentElement.querySelector('.faq-a').classList.toggle('active')">
+                        <span>Can you create custom workbooks for teams or groups?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Great question! We're exploring group licensing for youth leagues and teams. Email us at <a href="contact.html" style="color: #0052CC; font-weight: bold;">contact.html</a> to discuss bulk orders or custom needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section style="background: linear-gradient(135deg, #0052CC, #FF6B35); color: white; padding: 3rem 0; text-align: center;">
+    <div class="container">
+        <h2 style="margin-bottom: 1rem;">Ready to Start the Journey?</h2>
+        <p style="margin-bottom: 2rem;">Get Football Chaos today and transform your child's game</p>
+        <a href="index.html" class="btn btn-primary">Buy Now - Just $5 | 30-Day Guarantee</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Football Chaos</h4>
+                <p>The complete 4-week football training program for kids ages 6-14. Learn from pros, train like a champion.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="card-creator.html">Create Card</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">TikTok</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Football Chaos. All rights reserved. | 30-Day Money-Back Guarantee</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
